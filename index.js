@@ -1,10 +1,11 @@
 import React from 'react'
 import { render } from 'react-dom'
-import App from './modules/App'
+
 import { Router, Route, hashHistory } from 'react-router'
 
-import About from './modules/About'
-import Repos from './modules/Repos'
+import App from './components/Gr1'
+import About from './components/Search'
+import Repos from './components/Proposal'
 
 render((
   <Router history={hashHistory}>
