@@ -1,14 +1,15 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, hashHistory } from 'react-router'
-import App from './components/App'
-import About from './components/Proposal'
-import Repos from './components/Search'
+import App from './modules/App'
+import Proposals from './modules/Proposals'
+import Search from './modules/Search'
 
 render((
-	<Router history={hashHistory}>
-		<Route path="/" component={App}/>
-			<Route path="/Proposal" component={Proposal}/>
-			<Route path="/Search" component={Search}/>
-	</Router>
-), document.getElementById('app'))
+  <Router history={hashHistory}>
+    <Route path="/" component={App}>
+    	<Route path="/search" component={Search}/>
+    	<Route path="/proposals" component={Proposals}/>
+    </Route>
+  </Router>
+),document.getElementById('app'))
