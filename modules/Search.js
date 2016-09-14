@@ -2,6 +2,8 @@ import React from 'react'
 
 export default React.createClass({
   render() {
-    return <div>Vendor Search</div>
+    return <div>
+
+    	</div>
   }
 })

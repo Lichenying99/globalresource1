@@ -6,10 +6,10 @@ import Proposals from './modules/Proposals'
 import Search from './modules/Search'
 
 render((
-  <Router history={hashHistory}>
-    <Route path="/" component={App}>
-    	<Route path="/search" component={Search}/>
-    	<Route path="/proposals" component={Proposals}/>
-    </Route>
-  </Router>
+<Router history={hashHistory}>
+	<Route path="/" component={App}>
+		<Route path="/search" component={Search}/>
+		<Route path="/proposals" component={Proposals}/>
+	</Route>
+</Router>
 ),document.getElementById('app'))
