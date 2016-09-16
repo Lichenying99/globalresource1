@@ -166,34 +166,44 @@ export default React.createClass({
 
           <div className="row">
 
-          
+            <div className="col-sm-4"></div>
+            <div className="col-sm-4"></div>
 
             <div className="search col-sm-4">Vendor Search
-
               <form>
-
                 <div className="form-group">
                   <label for="name">Country: </label>
                   <input type="text" className="form-control" id="country" placeholder="Country"/>
                 </div>
-
                 <div className="form-group">
                   <label for="name">City: </label>
                   <input type="text" className="form-control" id="city" placeholder="City"/>
                 </div>
-
                 <div className="form-group">
                   <label for="name">Services: </label>
                   <input type="text" className="form-control" id="service" placeholder="Service Type"/>
                 </div>
-                
                 <button type="submit" className="btn btn-default">Submit</button>
-
               </form>
-
             </div>
 
           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
           <div className="results">Vendor Results
 

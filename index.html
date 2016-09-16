@@ -22,23 +22,31 @@
 				{
 					"type": "pie",
 					"balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
+					"minRadius": 9,
 					"titleField": "category",
 					"valueField": "column-1",
 					"theme": "black",
 					"allLabels": [],
-					"balloon": {},
-					"titles": [],
+					"balloon": {
+						"pointerWidth": 3
+					},
+					"titles": [
+						{
+							"id": "Title-1",
+							"text": "Current Opened Proposals"
+						}
+					],
 					"dataProvider": [
 						{
-							"category": "UK Coding Solutions",
+							"category": "UK Health Solutions",
 							"column-1": 8
 						},
 						{
-							"category": "Vector Health Asia",
+							"category": "Health Systems Asia",
 							"column-1": 6
 						},
 						{
-							"category": "Health Spain",
+							"category": "Spain Health",
 							"column-1": 2
 						}
 					]
