@@ -1,5 +1,6 @@
 //google fonts
 @import url(https://fonts.googleapis.com/css?family=Baloo+Paaji|Oswald|Raleway);
+@import url(https://fonts.googleapis.com/css?family=Arimo|Bree+Serif);
 
 //basic test variables
 $tc: #566683;
@@ -10,3 +11,36 @@ $blk: #000000;
 $raleway: 'Raleway', serif;
 $baloo-paaji: 'Baloo Paaji', serif;
 $oswald: 'Oswald', serif;
+$arimo: 'Arimo', serif;
+$bree-serif: 'Bree Serif',serif;
+
+a {
+	color: black;
+	background-color: Transparent;
+}
+
+.nav-item {
+	font-family: $bree-serif;
+}
+
+.title {
+	font-family: $bree-serif;
+}
+
+.infoTitle {
+	font-family: $bree-serif;
+}
+
+.info {
+	font-family: $bree-serif;
+	}
+
+.nav-item {
+	font-family: $bree-serif;
+}
+
+.proposals {
+	.proposalList {
+		list-style-type: none;
+	}
+}

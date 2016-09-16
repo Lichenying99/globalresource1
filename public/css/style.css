@@ -1,3 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Baloo+Paaji|Oswald|Raleway);
+@import url(https://fonts.googleapis.com/css?family=Arimo|Bree+Serif);
+a {
+  color: black;
+  background-color: Transparent; }
+
+.nav-item {
+  font-family: "Bree Serif", serif; }
+
+.title {
+  font-family: "Bree Serif", serif; }
+
+.infoTitle {
+  font-family: "Bree Serif", serif; }
+
+.info {
+  font-family: "Bree Serif", serif; }
+
+.nav-item {
+  font-family: "Bree Serif", serif; }
+
+.proposals .proposalList {
+  list-style-type: none; }
 
 /*# sourceMappingURL=style.css.map */
