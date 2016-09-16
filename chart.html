@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>pie-chart test | amCharts</title>
+		<title>chart created with amCharts | amCharts</title>
 		<meta name="description" content="chart created using amCharts live editor" />
 		
 		<!-- amCharts javascript sources -->
 		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
-		<script type="text/javascript" src="https:http://cdn.amcharts.com/lib/3/pie.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/pie.js"></script>
 		<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/black.js"></script>
 		
 
@@ -16,27 +16,24 @@
 				{
 					"type": "pie",
 					"balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
-					"depth3D": 6,
-					"titleField": "country",
-					"valueField": "litres",
-					"fontSize": 12,
-					"handDrawn": true,
+					"titleField": "category",
+					"valueField": "column-1",
 					"theme": "black",
 					"allLabels": [],
 					"balloon": {},
 					"titles": [],
 					"dataProvider": [
 						{
-							"country": "Inpatient",
-							"litres": 109.9
+							"category": "UK Coding Solutions",
+							"column-1": 8
 						},
 						{
-							"country": "Outpatient",
-							"litres": 108.3
+							"category": "Vector Health Asia",
+							"column-1": 6
 						},
 						{
-							"country": "Profesional Fee",
-							"litres": 65
+							"category": "Health Spain",
+							"column-1": 2
 						}
 					]
 				}

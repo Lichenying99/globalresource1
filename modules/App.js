@@ -1,7 +1,9 @@
-import React from 'react'
-import { render } from 'react-dom'
-import { Link } from 'react-router'
-import FontAwesome from 'react-fontawesome'
+import React from 'react';
+import { render } from 'react-dom';
+import { Link } from 'react-router';
+import FontAwesome from 'react-fontawesome';
+
+import AmCharts from 'amcharts3-react';
 
 
 
@@ -42,35 +44,39 @@ export default React.createClass({
 
           <div className="row">
 
-          <div className="proposal-request col-sm-4">Client Proposal Request
+            <div className="proposal-request col-sm-4">Client Proposal Request
 
-            <form>
+              <form>
 
-              <div className="form-group">
-                <label for="name">Client Name: </label>
-                <input type="text" className="form-control" id="name" placeholder="Name"/>
-              </div>
+                <div className="form-group">
+                  <label for="name">Name: </label>
+                  <input type="text" className="form-control" id="name" placeholder="Name"/>
+                </div>
 
-              <div className="form-group">
-                <label for="name">Client Need: </label>
-                <input type="text" className="form-control" id="need" placeholder="Need"/>
-              </div>
+                <div className="form-group">
+                  <label for="name">Need: </label>
+                  <input type="text" className="form-control" id="need" placeholder="Need"/>
+                </div>
 
-              <div className="form-group">
-                <label for="name">Duration: </label>
-                <input type="text" className="form-control" id="duration" placeholder="Duration"/>
-              </div>
+                <div className="form-group">
+                  <label for="name">Duration: </label>
+                  <input type="text" className="form-control" id="duration" placeholder="Duration"/>
+                </div>
 
-              <div className="form-group">
-                <label for="name">Contact: </label>
-                <input type="email" className="form-control" id="email" placeholder="Email"/>
-              </div>
+                <div className="form-group">
+                  <label for="name">Contact: </label>
+                  <input type="email" className="form-control" id="email" placeholder="Email"/>
+                </div>
 
-              <button type="submit" className="btn btn-default">Submit</button>
+                <button type="submit" className="btn btn-default">Submit</button>
 
-            </form>
+              </form>
 
-          </div>
+            </div>
+
+            <div className="col-sm-7"> 
+              <div id="chartdiv"></div>
+            </div>
 
           </div>
 
@@ -159,35 +165,34 @@ export default React.createClass({
           </div>
 
           <div className="row">
-          <div className="search col-sm-4">Vendor Search
 
-            <form>
+          
 
-              <div className="form-group">
-                <label for="name">Country: </label>
-                <input type="text" className="form-control" id="country" placeholder="Country"/>
-              </div>
+            <div className="search col-sm-4">Vendor Search
 
-              <div className="form-group">
-                <label for="name">City: </label>
-                <input type="text" className="form-control" id="city" placeholder="City"/>
-              </div>
+              <form>
 
-              <div className="form-group">
-                <label for="name">Services: </label>
-                <input type="text" className="form-control" id="service" placeholder="Service Type"/>
-              </div>
+                <div className="form-group">
+                  <label for="name">Country: </label>
+                  <input type="text" className="form-control" id="country" placeholder="Country"/>
+                </div>
 
-              <div className="form-group">
-                <label for="name">Contact: </label>
-                <input type="email" className="form-control" id="email" placeholder="Email"/>
-              </div>
+                <div className="form-group">
+                  <label for="name">City: </label>
+                  <input type="text" className="form-control" id="city" placeholder="City"/>
+                </div>
 
-              <button type="submit" className="btn btn-default">Submit</button>
+                <div className="form-group">
+                  <label for="name">Services: </label>
+                  <input type="text" className="form-control" id="service" placeholder="Service Type"/>
+                </div>
+                
+                <button type="submit" className="btn btn-default">Submit</button>
 
-            </form>
+              </form>
 
-          </div>
+            </div>
+
           </div>
 
           <div className="results">Vendor Results
@@ -204,14 +209,13 @@ export default React.createClass({
                     <li>Name: </li>
                     <li>Country: </li>
                     <li>Services: </li>
-                    <li>Contact: </li>
                   </ul>
 
               </div>
 
               <div className="col-sm-4">
                 <div className="vendorSocial">
-                  <i className="fa fa-facebook-official fa-3x" aria-hidden="true"></i> <i className="fa fa-google-plus-square fa-3x" aria-hidden="true"></i> <i className="fa fa-instagram fa-3x" aria-hidden="true"></i> <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i> <i className="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                  <i className="fa fa-facebook-official fa-3x" aria-hidden="true"></i> <i className="fa fa-google-plus-square fa-3x" aria-hidden="true"></i> <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i> <i className="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
                 </div>
               </div>
 
