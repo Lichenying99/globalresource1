@@ -166,8 +166,11 @@ export default React.createClass({
 
           <div className="row">
 
-            <div className="col-sm-4"></div>
-            <div className="col-sm-4"></div>
+            <div className="col-sm-8">
+              <div id="chart2div" ></div>
+
+            </div>
+
 
             <div className="search col-sm-4">Vendor Search
               <form>

@@ -1,64 +1,16 @@
-<!doctype html public "storage">
+<!DOCTYPE html>
 <html>
-<head>
-
-	<meta charset=utf-8/>
-
-	<title>GR1</title>
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="public/css/style.css">
-
-	<!-- amCharts javascript sources -->
-		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
-		<script type="text/javascript" src="https://www.amcharts.com/lib/3/pie.js"></script>
-		<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/black.js"></script>
+	<head>
+		<title>chart created with amCharts | amCharts</title>
+		<meta name="description" content="chart created using amCharts live editor" />
 		
-
-		<!-- amCharts javascript code -->
-		<script type="text/javascript">
-			AmCharts.makeChart("chartdiv",
-				{
-					"type": "pie",
-					"balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
-					"minRadius": 9,
-					"titleField": "category",
-					"valueField": "column-1",
-					"theme": "black",
-					"allLabels": [],
-					"balloon": {
-						"pointerWidth": 3
-					},
-					"titles": [
-						{
-							"id": "Title-1",
-							"text": "Current Opened Proposals"
-						}
-					],
-					"dataProvider": [
-						{
-							"category": "UK Health Solutions",
-							"column-1": 8
-						},
-						{
-							"category": "Health Systems Asia",
-							"column-1": 6
-						},
-						{
-							"category": "Spain Health",
-							"column-1": 2
-						}
-					]
-				}
-			);
-		</script>
-
 		<!-- amCharts javascript sources -->
 		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 		<script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
 		<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+		
 
+		<!-- amCharts javascript code -->
 		<script type="text/javascript">
 			AmCharts.makeChart("chart2div",
 				{
@@ -133,16 +85,8 @@
 				}
 			);
 		</script>
-
-	
-
-
-</head>
-<body>
-
-	<div id=app></div>
-
-	<script src="bundle.js"></script>
-
-</body>
+	</head>
+	<body>
+		<div id="chart2div" style="width: 100%; height: 300px; background-color: #FFFFFF;" ></div>
+	</body>
 </html>
