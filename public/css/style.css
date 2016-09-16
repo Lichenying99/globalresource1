@@ -22,4 +22,11 @@ a {
 .proposals .proposalList {
   list-style-type: none; }
 
+img {
+  height: 75px;
+  width: 50%; }
+
+.vendorInfo {
+  list-style-type: none; }
+
 /*# sourceMappingURL=style.css.map */

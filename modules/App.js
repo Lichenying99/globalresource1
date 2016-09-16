@@ -1,6 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { Link } from 'react-router'
+import FontAwesome from 'react-fontawesome'
 
 
 
@@ -41,7 +42,7 @@ export default React.createClass({
 
           <div className="row">
 
-          <div className="proposal-request col-sm-6">Client Proposal Request
+          <div className="proposal-request col-sm-4">Client Proposal Request
 
             <form>
 
@@ -115,11 +116,109 @@ export default React.createClass({
 
             </div>
 
+            <div className="row">
+
+              <div className="col-sm-3">
+                <ul className="proposalList">
+                  <li>Name: DK Health System</li>
+                  <li>Need: Out Paitent Coders</li>
+                  <li>Duration: 6 Months</li>
+                  <li>Contact: jane.morris@dkhs.com</li>
+                </ul>
+              </div>
+
+              <div className="col-sm-3">
+                <ul className="proposalList">
+                  <li>Name: </li>
+                  <li>Need: </li>
+                  <li>Duration: </li>
+                  <li>Contact: </li>
+                </ul>
+              </div>
+
+              <div className="col-sm-3">
+                <ul className="proposalList">
+                  <li>Name: </li>
+                  <li>Need: </li>
+                  <li>Duration: </li>
+                  <li>Contact: </li>
+                </ul>
+              </div>
+
+              <div className="col-sm-3">
+                <ul className="proposalList">
+                  <li>Name: </li>
+                  <li>Need: </li>
+                  <li>Duration: </li>
+                  <li>Contact: </li>
+                </ul>
+              </div>
+
+            </div>
+
           </div>
 
-          <div className="search">Vendor Search</div>
+          <div className="row">
+          <div className="search col-sm-4">Vendor Search
 
-          <div className="results">Vendor Results</div>
+            <form>
+
+              <div className="form-group">
+                <label for="name">Country: </label>
+                <input type="text" className="form-control" id="country" placeholder="Country"/>
+              </div>
+
+              <div className="form-group">
+                <label for="name">City: </label>
+                <input type="text" className="form-control" id="city" placeholder="City"/>
+              </div>
+
+              <div className="form-group">
+                <label for="name">Services: </label>
+                <input type="text" className="form-control" id="service" placeholder="Service Type"/>
+              </div>
+
+              <div className="form-group">
+                <label for="name">Contact: </label>
+                <input type="email" className="form-control" id="email" placeholder="Email"/>
+              </div>
+
+              <button type="submit" className="btn btn-default">Submit</button>
+
+            </form>
+
+          </div>
+          </div>
+
+          <div className="results">Vendor Results
+
+            <div className="row">
+
+              <div className="col-sm-2">
+                <div className="logo"><img src="../public/img/fakeLogo1.jpg" alt="logo" className="img-rounded"/></div>
+              </div>
+
+              <div className="col-sm-5">
+
+                  <ul className="vendorInfo">
+                    <li>Name: </li>
+                    <li>Country: </li>
+                    <li>Services: </li>
+                    <li>Contact: </li>
+                  </ul>
+
+              </div>
+
+              <div className="col-sm-4">
+                <div className="vendorSocial">
+                  <i className="fa fa-facebook-official fa-3x" aria-hidden="true"></i> <i className="fa fa-google-plus-square fa-3x" aria-hidden="true"></i> <i className="fa fa-instagram fa-3x" aria-hidden="true"></i> <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i> <i className="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
 
       </div>
     )
