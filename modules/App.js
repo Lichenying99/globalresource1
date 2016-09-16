@@ -39,9 +39,42 @@ export default React.createClass({
 
             </div>
 
-          <div className="proposal-request">Client Proposal Request</div>
+          <div className="row">
+
+          <div className="proposal-request col-sm-6">Client Proposal Request
+
+            <form>
+
+              <div className="form-group">
+                <label for="name">Client Name: </label>
+                <input type="text" className="form-control" id="name" placeholder="Name"/>
+              </div>
+
+              <div className="form-group">
+                <label for="name">Client Need: </label>
+                <input type="text" className="form-control" id="need" placeholder="Need"/>
+              </div>
+
+              <div className="form-group">
+                <label for="name">Duration: </label>
+                <input type="text" className="form-control" id="duration" placeholder="Duration"/>
+              </div>
+
+              <div className="form-group">
+                <label for="name">Contact: </label>
+                <input type="email" className="form-control" id="email" placeholder="Email"/>
+              </div>
+
+              <button type="submit" className="btn btn-default">Submit</button>
+
+            </form>
+
+          </div>
+
+          </div>
 
           <div className="proposals">Proposal Listings
+
             <div className="row">
 
               <div className="col-sm-3">
@@ -84,11 +117,9 @@ export default React.createClass({
 
           </div>
 
-
-
           <div className="search">Vendor Search</div>
 
-
+          <div className="results">Vendor Results</div>
 
       </div>
     )
