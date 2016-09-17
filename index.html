@@ -1,42 +1,54 @@
 <!doctype html public "storage">
+
 <html>
+
 <head>
 
-	<meta charset=utf-8/>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
 	<title>GR1</title>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Font Awesome -->
 	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Bootcards CSS for desktop: -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootcards/1.0.0/css/bootcards-desktop.min.css">
+
+    <!-- My Very Own Custom Style -->
 	<link rel="stylesheet" type="text/css" href="public/css/style.css">
 
 	<!-- amCharts javascript sources -->
-		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
-		<script type="text/javascript" src="https://www.amcharts.com/lib/3/pie.js"></script>
-		<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/black.js"></script>
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/pie.js"></script>
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/black.js"></script>
 		
 
-		<!-- amCharts javascript code -->
-		<script type="text/javascript">
-			AmCharts.makeChart("chartdiv",
-				{
-					"type": "pie",
-					"balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
-					"minRadius": 9,
-					"titleField": "category",
-					"valueField": "column-1",
-					"theme": "black",
-					"allLabels": [],
-					"balloon": {
-						"pointerWidth": 3
-					},
-					"titles": [
-						{
-							"id": "Title-1",
-							"text": "Current Opened Proposals"
-						}
-					],
-					"dataProvider": [
+	<!-- amCharts javascript code -->
+	<script type="text/javascript">
+		AmCharts.makeChart("chartdiv",
+			{
+				"type": "pie",
+				"balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
+				"minRadius": 9,
+				"titleField": "category",
+				"valueField": "column-1",
+				"theme": "black",
+				"allLabels": [],
+				"balloon": {
+					"pointerWidth": 3
+				},
+				"titles": [
+					{
+						"id": "Title-1",
+						"text": "Current Opened Proposals"
+					}
+						],
+						"dataProvider": [
 						{
 							"category": "UK Health Solutions",
 							"column-1": 8
@@ -134,15 +146,20 @@
 			);
 		</script>
 
-	
-
-
 </head>
+
 <body>
 
+	<!-- Home -->
 	<div id=app></div>
 
+	<!-- Bootstrap and Bootcards JS -->
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/bootcards/1.0.0/js/bootcards.min.js"></script>
+
+	<!-- Bread and Butter -->
 	<script src="bundle.js"></script>
 
 </body>
+
 </html>
