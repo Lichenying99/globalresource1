@@ -21,7 +21,7 @@ export default React.createClass({
             </div>
         </nav>
 
-          <div className="title page-header text-center">GLOBAL RESOURCE ONE</div>
+          <div className="title text-center">GLOBAL RESOURCE ONE</div>
 
             <div className="row">
 
@@ -101,7 +101,7 @@ export default React.createClass({
           </div>
         </div>
 
-          <h5 className="proListTitle text-center page-header">Proposal Listings</h5>
+          <h5 className="proListTitle text-center">Proposal Listings</h5>
 
             <div className="row">
 
@@ -241,34 +241,34 @@ export default React.createClass({
 
       </div>
 
-          <div className="results">Vendor Results
+          <h5 className="vendorListResults text-center">Vendor Search Results</h5>
 
-            <div className="row">
-
-              <div className="col-sm-2">
-                <div className="logo"><img src="../public/img/fakeLogo1.jpg" alt="logo" className="img-responsive"/></div>
-              </div>
-
-              <div className="col-sm-5">
-
-                  <ul className="vendorInfo">
-                    <li>Name: </li>
-                    <li>Country: </li>
-                    <li>Services: </li>
-                  </ul>
-
-              </div>
-
-              <div className="col-sm-4">
-                <div className="vendorSocial">
-                  <i className="fa fa-facebook-official fa-3x" aria-hidden="true"></i> <i className="fa fa-google-plus-square fa-3x" aria-hidden="true"></i> <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i> <i className="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
-                </div>
-              </div>
-
-            </div>
-
-
-          </div>
+                  
+                    <div class="panel panel-default">
+                      <div class="panel-heading clearfix">
+                        <h5 class="panel-title pull-left">Viable Health Systems</h5>
+                          <a className="btn btn-primary pull-right" href="#">
+                          Contact
+                          </a>
+                      </div>
+                      <div className="panel-body">
+                        <div className="row">
+                          <div className="col-sm-3">
+                            <img src="../public/img/fakeLogo1.jpg" alt="logo" className="img-responsive"/>
+                          </div>
+                          <div className="col-sm-3">
+                            <ul className="vendorInfo">
+                              <li>Contact: </li>
+                              <li>Country: </li>
+                              <li>Services: </li>
+                            </ul>
+                          </div>
+                          <div className="col-sm-3">
+                            <i className="fa fa-facebook-official fa-3x" aria-hidden="true"></i> <i className="fa fa-google-plus-square fa-3x" aria-hidden="true"></i> <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i> <i className="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
       </div>
     )
