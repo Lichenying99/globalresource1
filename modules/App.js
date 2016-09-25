@@ -11,36 +11,37 @@ export default React.createClass({
   render() {
     return (
       <div className="container">
+      <div className="layer">
         <nav className="nav">
             <div className="navbar-header">
               <ul className="nav navbar-nav">
-                <li className="nav-item"><a href="#">GR1</a></li>
-                <li className="nav-item"><a href="#">Proposals</a></li>
-                <li className="nav-item"><a href="#">Search</a></li>
+                <li className="nav-item"><a className="navs" href="#">GR1</a></li>
+                <li className="nav-item"><a className="navs" href="#prop-req">Proposals</a></li>
+                <li className="nav-item"><a className="navs" href="#vendor-search">Search</a></li>
               </ul>
             </div>
         </nav>
 
           <div className="title text-center">GLOBAL RESOURCE ONE</div>
 
-            <div className="row">
+            <div className="row infoBoxes">
 
               <div className="col-sm-4">
-              <div className="panel panel-default">
+              <div className="panel panel-default panelTest">
                 <h5 className="infoTitle panel-title text-center">Client Proposal Request</h5>
                   <p className="info panel-body text-center">Clients will post job specific proposals for vendors to search and be able to answer and connect better with clients.</p>
               </div>
               </div>
 
               <div className="col-sm-4">
-              <div className="panel panel-default">
+              <div className="panel panel-default panelTest">
                 <h5 className="infoTitle panel-title text-center">Vendor Search</h5>
                   <p className="info panel-body text-center">Vendors or contractors will appear in a simple to search database constantly being updated with current information.</p>
               </div>
               </div>
 
               <div className="col-sm-4">
-              <div className="panel panel-default">
+              <div className="panel panel-default panelTest">
                 <h5 className="infoTitle panel-title text-center">One Resource</h5>
                   <p className="info panel-body text-center">Both vendor and clients will be found in one central global database accessable by creating an account with Global Resource One.</p>
               </div>
@@ -48,7 +49,8 @@ export default React.createClass({
 
             </div>
 
-      <div className="row">
+      <div className="section-one"><a name="prop-req"></a></div>
+      <div className="row form1">
         <div className="col-sm-4">
           <div className="panel panel-default">
             <div className="panel-heading clearfix">
@@ -101,9 +103,10 @@ export default React.createClass({
           </div>
         </div>
 
-          <h5 className="proListTitle text-center">Proposal Listings</h5>
+          <h5 className="proListTitle">Proposal Listings</h5>
 
-            <div className="row">
+
+            <div className="row listings">
 
               <div className="col-sm-3">
                 <div className="panel panel-default">
@@ -126,6 +129,8 @@ export default React.createClass({
                   </div>
                 </div>
               </div>
+
+
 
               <div className="col-sm-3">
                 <div className="panel panel-default">
@@ -195,6 +200,8 @@ export default React.createClass({
 
             </div>
 
+
+      <div className="section-one"><a name="vendor-search"></a></div>
       <div className="row">
             <div className="col-sm-8">
               <div id="chart2div" ></div>
@@ -241,19 +248,18 @@ export default React.createClass({
 
       </div>
 
-          <h5 className="vendorListResults text-center">Vendor Search Results</h5>
-
                   
                     <div class="panel panel-default">
                       <div class="panel-heading clearfix">
-                        <h5 class="panel-title pull-left">Viable Health Systems</h5>
+                        
                           <a className="btn btn-primary pull-right" href="#">
                           Contact
                           </a>
                       </div>
-                      <div className="panel-body">
+                      <div className="panel-body vendor-panel">
                         <div className="row">
                           <div className="col-sm-3">
+                            <h5 class="panel-title pull-left vendor-title">Viable Health Systems</h5>
                             <img src="../public/img/fakeLogo1.jpg" alt="logo" className="img-responsive"/>
                           </div>
                           <div className="col-sm-3">
@@ -269,7 +275,7 @@ export default React.createClass({
                         </div>
                       </div>
                     </div>
-
+      </div>
       </div>
     )
   }
