@@ -21473,668 +21473,656 @@
 	      'div',
 	      { className: 'container' },
 	      _react2.default.createElement(
+	        'nav',
+	        { className: 'nav' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'navbar-header' },
+	          _react2.default.createElement(
+	            'ul',
+	            { className: 'nav navbar-nav' },
+	            _react2.default.createElement(
+	              'li',
+	              { className: 'nav-item' },
+	              _react2.default.createElement(
+	                'a',
+	                { className: 'navs', href: '#' },
+	                'GR1'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              { className: 'nav-item' },
+	              _react2.default.createElement(
+	                'a',
+	                { className: 'navs', href: '#prop-req' },
+	                'Proposals'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              { className: 'nav-item' },
+	              _react2.default.createElement(
+	                'a',
+	                { className: 'navs', href: '#vendor-search' },
+	                'Search'
+	              )
+	            )
+	          )
+	        )
+	      ),
+	      _react2.default.createElement(
 	        'div',
-	        { className: 'layer' },
+	        { className: 'title text-center' },
+	        'GLOBAL RESOURCE ONE'
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'row infoBoxes' },
 	        _react2.default.createElement(
-	          'nav',
-	          { className: 'nav' },
+	          'div',
+	          { className: 'col-sm-4' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'navbar-header' },
+	            { className: 'panel panel-default panelTest' },
 	            _react2.default.createElement(
-	              'ul',
-	              { className: 'nav navbar-nav' },
-	              _react2.default.createElement(
-	                'li',
-	                { className: 'nav-item' },
-	                _react2.default.createElement(
-	                  'a',
-	                  { className: 'navs', href: '#' },
-	                  'GR1'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'li',
-	                { className: 'nav-item' },
-	                _react2.default.createElement(
-	                  'a',
-	                  { className: 'navs', href: '#prop-req' },
-	                  'Proposals'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'li',
-	                { className: 'nav-item' },
-	                _react2.default.createElement(
-	                  'a',
-	                  { className: 'navs', href: '#vendor-search' },
-	                  'Search'
-	                )
-	              )
+	              'h5',
+	              { className: 'infoTitle panel-title text-center' },
+	              'Client Proposal Request'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'info panel-body text-center' },
+	              'Clients will post job specific proposals for vendors to search and be able to answer and connect better with clients.'
 	            )
 	          )
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'title text-center' },
-	          'GLOBAL RESOURCE ONE'
+	          { className: 'col-sm-4' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-default panelTest' },
+	            _react2.default.createElement(
+	              'h5',
+	              { className: 'infoTitle panel-title text-center' },
+	              'Vendor Search'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'info panel-body text-center' },
+	              'Vendors or contractors will appear in a simple to search database constantly being updated with current information.'
+	            )
+	          )
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'row infoBoxes' },
+	          { className: 'col-sm-4' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'col-sm-4' },
+	            { className: 'panel panel-default panelTest' },
+	            _react2.default.createElement(
+	              'h5',
+	              { className: 'infoTitle panel-title text-center' },
+	              'One Resource'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'info panel-body text-center' },
+	              'Both vendor and clients will be found in one central global database accessable by creating an account with Global Resource One.'
+	            )
+	          )
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'section-one' },
+	        _react2.default.createElement('a', { name: 'prop-req' })
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'row form1' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-sm-4' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-default' },
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'panel panel-default panelTest' },
+	              { className: 'panel-heading clearfix' },
 	              _react2.default.createElement(
 	                'h5',
-	                { className: 'infoTitle panel-title text-center' },
-	                'Client Proposal Request'
+	                { className: 'panel-title pull-left' },
+	                'Proposal Request'
 	              ),
-	              _react2.default.createElement(
-	                'p',
-	                { className: 'info panel-body text-center' },
-	                'Clients will post job specific proposals for vendors to search and be able to answer and connect better with clients.'
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-sm-4' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'panel panel-default panelTest' },
-	              _react2.default.createElement(
-	                'h5',
-	                { className: 'infoTitle panel-title text-center' },
-	                'Vendor Search'
-	              ),
-	              _react2.default.createElement(
-	                'p',
-	                { className: 'info panel-body text-center' },
-	                'Vendors or contractors will appear in a simple to search database constantly being updated with current information.'
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-sm-4' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'panel panel-default panelTest' },
-	              _react2.default.createElement(
-	                'h5',
-	                { className: 'infoTitle panel-title text-center' },
-	                'One Resource'
-	              ),
-	              _react2.default.createElement(
-	                'p',
-	                { className: 'info panel-body text-center' },
-	                'Both vendor and clients will be found in one central global database accessable by creating an account with Global Resource One.'
-	              )
-	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'section-one' },
-	          _react2.default.createElement('a', { name: 'prop-req' })
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'row form1' },
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-sm-4' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'panel panel-default' },
 	              _react2.default.createElement(
 	                'div',
-	                { className: 'panel-heading clearfix' },
+	                { className: 'btn-group pull-right' },
 	                _react2.default.createElement(
-	                  'h5',
-	                  { className: 'panel-title pull-left' },
-	                  'Proposal Request'
-	                ),
+	                  'button',
+	                  { className: 'btn btn-success' },
+	                  _react2.default.createElement('i', { className: 'fa fa-check' }),
+	                  'Submit'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'modal-body' },
+	              _react2.default.createElement(
+	                'form',
+	                { className: 'form-horizontal' },
 	                _react2.default.createElement(
 	                  'div',
-	                  { className: 'btn-group pull-right' },
+	                  { className: 'form-group' },
 	                  _react2.default.createElement(
-	                    'button',
-	                    { className: 'btn btn-success' },
-	                    _react2.default.createElement('i', { className: 'fa fa-check' }),
-	                    'Submit'
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'modal-body' },
-	                _react2.default.createElement(
-	                  'form',
-	                  { className: 'form-horizontal' },
-	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'form-group' },
-	                    _react2.default.createElement(
-	                      'label',
-	                      { className: 'col-xs-3 control-label' },
-	                      'Name: '
-	                    ),
-	                    _react2.default.createElement(
-	                      'div',
-	                      { className: 'col-xs-9' },
-	                      _react2.default.createElement('input', { type: 'text', className: 'form-control' })
-	                    )
+	                    'label',
+	                    { className: 'col-xs-3 control-label' },
+	                    'Name: '
 	                  ),
 	                  _react2.default.createElement(
 	                    'div',
-	                    { className: 'form-group' },
+	                    { className: 'col-xs-9' },
+	                    _react2.default.createElement('input', { type: 'text', className: 'form-control' })
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'form-group' },
+	                  _react2.default.createElement(
+	                    'label',
+	                    { className: 'col-xs-3 control-label' },
+	                    'Service: '
+	                  ),
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'col-xs-9' },
 	                    _react2.default.createElement(
-	                      'label',
-	                      { className: 'col-xs-3 control-label' },
-	                      'Service: '
-	                    ),
-	                    _react2.default.createElement(
-	                      'div',
-	                      { className: 'col-xs-9' },
+	                      'select',
+	                      { className: 'form-control' },
 	                      _react2.default.createElement(
-	                        'select',
-	                        { className: 'form-control' },
-	                        _react2.default.createElement(
-	                          'option',
-	                          null,
-	                          'Inpatient'
-	                        ),
-	                        _react2.default.createElement(
-	                          'option',
-	                          null,
-	                          'Outpatient'
-	                        )
-	                      )
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'form-group' },
-	                    _react2.default.createElement(
-	                      'label',
-	                      { className: 'col-xs-3 control-label' },
-	                      'Duration: '
-	                    ),
-	                    _react2.default.createElement(
-	                      'div',
-	                      { className: 'col-xs-9' },
+	                        'option',
+	                        null,
+	                        'Inpatient'
+	                      ),
 	                      _react2.default.createElement(
-	                        'select',
-	                        { className: 'form-control' },
-	                        _react2.default.createElement(
-	                          'option',
-	                          null,
-	                          '6 Months'
-	                        ),
-	                        _react2.default.createElement(
-	                          'option',
-	                          null,
-	                          '12 Months'
-	                        )
-	                      )
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'form-group' },
-	                    _react2.default.createElement(
-	                      'label',
-	                      { className: 'col-xs-3 control-label' },
-	                      'Contact: '
-	                    ),
-	                    _react2.default.createElement(
-	                      'div',
-	                      { className: 'col-xs-9' },
-	                      _react2.default.createElement('input', { type: 'email', className: 'form-control' })
-	                    )
-	                  )
-	                )
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-sm-7' },
-	            _react2.default.createElement('div', { id: 'chartdiv' })
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'h5',
-	          { className: 'proListTitle' },
-	          'Proposal Listings'
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'row listings' },
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-sm-3' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'panel panel-default' },
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'panel-heading clearfix' },
-	                _react2.default.createElement(
-	                  'h5',
-	                  { className: 'panel-title pull-left' },
-	                  'D. K. Health System'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'list-group' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'list-group-item' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'list-group-item-text' },
-	                    'Service:'
-	                  ),
-	                  _react2.default.createElement(
-	                    'h5',
-	                    { className: 'list-group-item-heading' },
-	                    'Outpatient'
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'list-group-item' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'list-group-item-text' },
-	                    'Duration:'
-	                  ),
-	                  _react2.default.createElement(
-	                    'h5',
-	                    { className: 'list-group-item-heading' },
-	                    '6 Months'
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'list-group-item' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'list-group-item-text' },
-	                    'Contact:'
-	                  ),
-	                  _react2.default.createElement(
-	                    'h5',
-	                    { className: 'list-group-item-heading' },
-	                    'jane.morris@dkhs.com'
-	                  )
-	                )
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-sm-3' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'panel panel-default' },
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'panel-heading clearfix' },
-	                _react2.default.createElement(
-	                  'h5',
-	                  { className: 'panel-title pull-left' },
-	                  'Spain Health'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'list-group' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'list-group-item' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'list-group-item-text' },
-	                    'Service:'
-	                  ),
-	                  _react2.default.createElement(
-	                    'h5',
-	                    { className: 'list-group-item-heading' },
-	                    'Outpatient'
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'list-group-item' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'list-group-item-text' },
-	                    'Duration:'
-	                  ),
-	                  _react2.default.createElement(
-	                    'h5',
-	                    { className: 'list-group-item-heading' },
-	                    '6 Months'
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'list-group-item' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'list-group-item-text' },
-	                    'Contact:'
-	                  ),
-	                  _react2.default.createElement(
-	                    'h5',
-	                    { className: 'list-group-item-heading' },
-	                    'juro_quatro@hrsh.com'
-	                  )
-	                )
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-sm-3' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'panel panel-default' },
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'panel-heading clearfix' },
-	                _react2.default.createElement(
-	                  'h5',
-	                  { className: 'panel-title pull-left' },
-	                  'Health Systems Asia'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'list-group' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'list-group-item' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'list-group-item-text' },
-	                    'Service:'
-	                  ),
-	                  _react2.default.createElement(
-	                    'h5',
-	                    { className: 'list-group-item-heading' },
-	                    'Inpatient'
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'list-group-item' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'list-group-item-text' },
-	                    'Duration:'
-	                  ),
-	                  _react2.default.createElement(
-	                    'h5',
-	                    { className: 'list-group-item-heading' },
-	                    '1 Months'
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'list-group-item' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'list-group-item-text' },
-	                    'Contact:'
-	                  ),
-	                  _react2.default.createElement(
-	                    'h5',
-	                    { className: 'list-group-item-heading' },
-	                    'kara_hr@hsahr.com'
-	                  )
-	                )
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-sm-3' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'panel panel-default' },
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'panel-heading clearfix' },
-	                _react2.default.createElement(
-	                  'h5',
-	                  { className: 'panel-title pull-left' },
-	                  'UK Health Solutions'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'list-group' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'list-group-item' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'list-group-item-text' },
-	                    'Service:'
-	                  ),
-	                  _react2.default.createElement(
-	                    'h5',
-	                    { className: 'list-group-item-heading' },
-	                    'Inpatient'
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'list-group-item' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'list-group-item-text' },
-	                    'Duration:'
-	                  ),
-	                  _react2.default.createElement(
-	                    'h5',
-	                    { className: 'list-group-item-heading' },
-	                    '1 Months'
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'list-group-item' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'list-group-item-text' },
-	                    'Contact:'
-	                  ),
-	                  _react2.default.createElement(
-	                    'h5',
-	                    { className: 'list-group-item-heading' },
-	                    'liam_hode@ukh.com'
-	                  )
-	                )
-	              )
-	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'section-one' },
-	          _react2.default.createElement('a', { name: 'vendor-search' })
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'row' },
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-sm-8' },
-	            _react2.default.createElement('div', { id: 'chart2div' })
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-sm-4' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'panel panel-default' },
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'panel-heading clearfix' },
-	                _react2.default.createElement(
-	                  'h5',
-	                  { className: 'panel-title pull-left' },
-	                  'Vendor Search'
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'btn-group pull-right' },
-	                  _react2.default.createElement(
-	                    'button',
-	                    { className: 'btn btn-success' },
-	                    _react2.default.createElement('i', { className: 'fa fa-check' }),
-	                    'Submit'
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'modal-body' },
-	                _react2.default.createElement(
-	                  'form',
-	                  { className: 'form-horizontal' },
-	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'form-group' },
-	                    _react2.default.createElement(
-	                      'label',
-	                      { className: 'col-xs-3 control-label' },
-	                      'Name: '
-	                    ),
-	                    _react2.default.createElement(
-	                      'div',
-	                      { className: 'col-xs-9' },
-	                      _react2.default.createElement('input', { type: 'text', className: 'form-control' })
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'form-group' },
-	                    _react2.default.createElement(
-	                      'label',
-	                      { className: 'col-xs-3 control-label' },
-	                      'City: '
-	                    ),
-	                    _react2.default.createElement(
-	                      'div',
-	                      { className: 'col-xs-9' },
-	                      _react2.default.createElement('input', { type: 'text', className: 'form-control' })
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'form-group' },
-	                    _react2.default.createElement(
-	                      'label',
-	                      { className: 'col-xs-3 control-label' },
-	                      'Service: '
-	                    ),
-	                    _react2.default.createElement(
-	                      'div',
-	                      { className: 'col-xs-9' },
-	                      _react2.default.createElement(
-	                        'select',
-	                        { className: 'form-control' },
-	                        _react2.default.createElement(
-	                          'option',
-	                          null,
-	                          'Inpatient'
-	                        ),
-	                        _react2.default.createElement(
-	                          'option',
-	                          null,
-	                          'Outpatient'
-	                        )
+	                        'option',
+	                        null,
+	                        'Outpatient'
 	                      )
 	                    )
 	                  )
-	                )
-	              )
-	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { 'class': 'panel panel-default' },
-	          _react2.default.createElement(
-	            'div',
-	            { 'class': 'panel-heading clearfix' },
-	            _react2.default.createElement(
-	              'a',
-	              { className: 'btn btn-primary pull-right', href: '#' },
-	              'Contact'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'panel-body vendor-panel' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'row' },
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'col-sm-3' },
-	                _react2.default.createElement(
-	                  'h5',
-	                  { 'class': 'panel-title pull-left vendor-title' },
-	                  'Viable Health Systems'
 	                ),
-	                _react2.default.createElement('img', { src: '../public/img/fakeLogo1.jpg', alt: 'logo', className: 'img-responsive' })
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'col-sm-3' },
 	                _react2.default.createElement(
-	                  'ul',
-	                  { className: 'vendorInfo' },
+	                  'div',
+	                  { className: 'form-group' },
 	                  _react2.default.createElement(
-	                    'li',
-	                    null,
+	                    'label',
+	                    { className: 'col-xs-3 control-label' },
+	                    'Duration: '
+	                  ),
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'col-xs-9' },
+	                    _react2.default.createElement(
+	                      'select',
+	                      { className: 'form-control' },
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '6 Months'
+	                      ),
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '12 Months'
+	                      )
+	                    )
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'form-group' },
+	                  _react2.default.createElement(
+	                    'label',
+	                    { className: 'col-xs-3 control-label' },
 	                    'Contact: '
 	                  ),
 	                  _react2.default.createElement(
-	                    'li',
-	                    null,
-	                    'Country: '
-	                  ),
-	                  _react2.default.createElement(
-	                    'li',
-	                    null,
-	                    'Services: '
+	                    'div',
+	                    { className: 'col-xs-9' },
+	                    _react2.default.createElement('input', { type: 'email', className: 'form-control' })
 	                  )
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-sm-7' },
+	          _react2.default.createElement('div', { id: 'chartdiv' })
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'h5',
+	        { className: 'proListTitle' },
+	        'Proposal Listings'
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'row listings' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-sm-3' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-default' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'panel-heading clearfix' },
+	              _react2.default.createElement(
+	                'h5',
+	                { className: 'panel-title pull-left' },
+	                'D. K. Health System'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'list-group' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'list-group-item' },
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'list-group-item-text' },
+	                  'Service:'
+	                ),
+	                _react2.default.createElement(
+	                  'h5',
+	                  { className: 'list-group-item-heading' },
+	                  'Outpatient'
 	                )
 	              ),
 	              _react2.default.createElement(
 	                'div',
-	                { className: 'col-sm-3' },
-	                _react2.default.createElement('i', { className: 'fa fa-facebook-official fa-3x', 'aria-hidden': 'true' }),
-	                ' ',
-	                _react2.default.createElement('i', { className: 'fa fa-google-plus-square fa-3x', 'aria-hidden': 'true' }),
-	                ' ',
-	                _react2.default.createElement('i', { className: 'fa fa-linkedin-square fa-3x', 'aria-hidden': 'true' }),
-	                ' ',
-	                _react2.default.createElement('i', { className: 'fa fa-twitter-square fa-3x', 'aria-hidden': 'true' })
+	                { className: 'list-group-item' },
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'list-group-item-text' },
+	                  'Duration:'
+	                ),
+	                _react2.default.createElement(
+	                  'h5',
+	                  { className: 'list-group-item-heading' },
+	                  '6 Months'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'list-group-item' },
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'list-group-item-text' },
+	                  'Contact:'
+	                ),
+	                _react2.default.createElement(
+	                  'h5',
+	                  { className: 'list-group-item-heading' },
+	                  'jane.morris@dkhs.com'
+	                )
 	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-sm-3' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-default' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'panel-heading clearfix' },
+	              _react2.default.createElement(
+	                'h5',
+	                { className: 'panel-title pull-left' },
+	                'Spain Health'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'list-group' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'list-group-item' },
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'list-group-item-text' },
+	                  'Service:'
+	                ),
+	                _react2.default.createElement(
+	                  'h5',
+	                  { className: 'list-group-item-heading' },
+	                  'Outpatient'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'list-group-item' },
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'list-group-item-text' },
+	                  'Duration:'
+	                ),
+	                _react2.default.createElement(
+	                  'h5',
+	                  { className: 'list-group-item-heading' },
+	                  '6 Months'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'list-group-item' },
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'list-group-item-text' },
+	                  'Contact:'
+	                ),
+	                _react2.default.createElement(
+	                  'h5',
+	                  { className: 'list-group-item-heading' },
+	                  'juro_quatro@hrsh.com'
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-sm-3' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-default' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'panel-heading clearfix' },
+	              _react2.default.createElement(
+	                'h5',
+	                { className: 'panel-title pull-left' },
+	                'Health Systems Asia'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'list-group' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'list-group-item' },
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'list-group-item-text' },
+	                  'Service:'
+	                ),
+	                _react2.default.createElement(
+	                  'h5',
+	                  { className: 'list-group-item-heading' },
+	                  'Inpatient'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'list-group-item' },
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'list-group-item-text' },
+	                  'Duration:'
+	                ),
+	                _react2.default.createElement(
+	                  'h5',
+	                  { className: 'list-group-item-heading' },
+	                  '1 Months'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'list-group-item' },
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'list-group-item-text' },
+	                  'Contact:'
+	                ),
+	                _react2.default.createElement(
+	                  'h5',
+	                  { className: 'list-group-item-heading' },
+	                  'kara_hr@hsahr.com'
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-sm-3' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-default' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'panel-heading clearfix' },
+	              _react2.default.createElement(
+	                'h5',
+	                { className: 'panel-title pull-left' },
+	                'UK Health Solutions'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'list-group' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'list-group-item' },
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'list-group-item-text' },
+	                  'Service:'
+	                ),
+	                _react2.default.createElement(
+	                  'h5',
+	                  { className: 'list-group-item-heading' },
+	                  'Inpatient'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'list-group-item' },
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'list-group-item-text' },
+	                  'Duration:'
+	                ),
+	                _react2.default.createElement(
+	                  'h5',
+	                  { className: 'list-group-item-heading' },
+	                  '1 Months'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'list-group-item' },
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'list-group-item-text' },
+	                  'Contact:'
+	                ),
+	                _react2.default.createElement(
+	                  'h5',
+	                  { className: 'list-group-item-heading' },
+	                  'liam_hode@ukh.com'
+	                )
+	              )
+	            )
+	          )
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'section-one' },
+	        _react2.default.createElement('a', { name: 'vendor-search' })
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'row secondChartRow' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-sm-8' },
+	          _react2.default.createElement('div', { id: 'chart2div' })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-sm-4' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-default' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'panel-heading clearfix' },
+	              _react2.default.createElement(
+	                'h5',
+	                { className: 'panel-title pull-left' },
+	                'Vendor Search'
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'btn-group pull-right' },
+	                _react2.default.createElement(
+	                  'button',
+	                  { className: 'btn btn-success' },
+	                  _react2.default.createElement('i', { className: 'fa fa-check' }),
+	                  'Submit'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'modal-body' },
+	              _react2.default.createElement(
+	                'form',
+	                { className: 'form-horizontal' },
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'form-group' },
+	                  _react2.default.createElement(
+	                    'label',
+	                    { className: 'col-xs-3 control-label' },
+	                    'Name: '
+	                  ),
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'col-xs-9' },
+	                    _react2.default.createElement('input', { type: 'text', className: 'form-control' })
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'form-group' },
+	                  _react2.default.createElement(
+	                    'label',
+	                    { className: 'col-xs-3 control-label' },
+	                    'City: '
+	                  ),
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'col-xs-9' },
+	                    _react2.default.createElement('input', { type: 'text', className: 'form-control' })
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'form-group' },
+	                  _react2.default.createElement(
+	                    'label',
+	                    { className: 'col-xs-3 control-label' },
+	                    'Service: '
+	                  ),
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'col-xs-9' },
+	                    _react2.default.createElement(
+	                      'select',
+	                      { className: 'form-control' },
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        'Inpatient'
+	                      ),
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        'Outpatient'
+	                      )
+	                    )
+	                  )
+	                )
+	              )
+	            )
+	          )
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'row' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-sm-6' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'panel panel-default panelTest' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'col-xm-6' },
+	              _react2.default.createElement(
+	                'a',
+	                { className: 'btn btn-primary pull-right', href: '#' },
+	                'Contact'
+	              ),
+	              _react2.default.createElement(
+	                'h5',
+	                { 'class': 'panel-title pull-left vendor-title' },
+	                'Viable Health Systems'
+	              ),
+	              _react2.default.createElement('img', { src: '../public/img/fakeLogo1.jpg', alt: 'logo', className: 'v-logo' })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'col-xm-8' },
+	              _react2.default.createElement(
+	                'ul',
+	                { className: 'vendorInfo text-xm-left' },
+	                _react2.default.createElement(
+	                  'li',
+	                  null,
+	                  'Contact: '
+	                ),
+	                _react2.default.createElement(
+	                  'li',
+	                  null,
+	                  'Country: '
+	                ),
+	                _react2.default.createElement(
+	                  'li',
+	                  null,
+	                  'Services: '
+	                )
+	              ),
+	              _react2.default.createElement('i', { className: 'fa fa-facebook-official fa-3x', 'aria-hidden': 'true' }),
+	              ' ',
+	              _react2.default.createElement('i', { className: 'fa fa-google-plus-square fa-3x', 'aria-hidden': 'true' }),
+	              ' ',
+	              _react2.default.createElement('i', { className: 'fa fa-linkedin-square fa-3x', 'aria-hidden': 'true' }),
+	              ' ',
+	              _react2.default.createElement('i', { className: 'fa fa-twitter-square fa-3x', 'aria-hidden': 'true' })
 	            )
 	          )
 	        )

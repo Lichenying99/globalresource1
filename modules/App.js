@@ -12,7 +12,6 @@ export default React.createClass({
   render() {
     return (
       <div className="container">
-      <div className="layer">
         <nav className="nav">
             <div className="navbar-header">
               <ul className="nav navbar-nav">
@@ -203,7 +202,7 @@ export default React.createClass({
 
 
       <div className="section-one"><a name="vendor-search"></a></div>
-      <div className="row">
+      <div className="row secondChartRow">
             <div className="col-sm-8">
               <div id="chart2div" ></div>
             </div>
@@ -250,33 +249,36 @@ export default React.createClass({
       </div>
 
                   
-                    <div class="panel panel-default">
-                      <div class="panel-heading clearfix">
-                        
-                          <a className="btn btn-primary pull-right" href="#">
-                          Contact
-                          </a>
-                      </div>
-                      <div className="panel-body vendor-panel">
-                        <div className="row">
-                          <div className="col-sm-3">
+                  <div className="row">
+
+                    <div className="col-sm-6">
+
+                      <div className="panel panel-default panelTest">
+
+                        <div className="col-xm-6">
+
+                          <a className="btn btn-primary pull-right" href="#">Contact</a>
+
                             <h5 class="panel-title pull-left vendor-title">Viable Health Systems</h5>
-                            <img src="../public/img/fakeLogo1.jpg" alt="logo" className="img-responsive"/>
-                          </div>
-                          <div className="col-sm-3">
-                            <ul className="vendorInfo">
-                              <li>Contact: </li>
-                              <li>Country: </li>
-                              <li>Services: </li>
-                            </ul>
-                          </div>
-                          <div className="col-sm-3">
-                            <i className="fa fa-facebook-official fa-3x" aria-hidden="true"></i> <i className="fa fa-google-plus-square fa-3x" aria-hidden="true"></i> <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i> <i className="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+
+                              <img src="../public/img/fakeLogo1.jpg" alt="logo" className="v-logo"/>
+
+                        </div>
+                          
+                            <div className="col-xm-8">
+                              <ul className="vendorInfo text-xm-left">
+                                <li>Contact: </li>
+                                <li>Country: </li>
+                                <li>Services: </li>
+                              </ul>
+                                <i className="fa fa-facebook-official fa-3x" aria-hidden="true"></i> <i className="fa fa-google-plus-square fa-3x" aria-hidden="true"></i> <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i> <i className="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                            </div>
+
+                            
                           </div>
                         </div>
                       </div>
-                    </div>
-          </div>
+                    
       </div>
     )
   }

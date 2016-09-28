@@ -85,10 +85,6 @@ body {
 	}
 }
 
-img {
-	height: 75px;
-    width: 50%;
-}
 
 .vendorInfo {
 	list-style-type: none;
@@ -116,4 +112,13 @@ img {
 
 .vendor-panel {
 	color: $pbc;
+}
+
+.v-logo {
+	width: 100px;
+	height: 100px;
+}
+
+.secondChartRow {
+	padding-bottom: 25px;
 }

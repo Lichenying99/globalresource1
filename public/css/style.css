@@ -52,10 +52,6 @@ body {
 .proposals .proposalList {
   list-style-type: none; }
 
-img {
-  height: 75px;
-  width: 50%; }
-
 .vendorInfo {
   list-style-type: none; }
 
@@ -77,5 +73,12 @@ img {
 
 .vendor-panel {
   color: #FFEDC6; }
+
+.v-logo {
+  width: 100px;
+  height: 100px; }
+
+.secondChartRow {
+  padding-bottom: 25px; }
 
 /*# sourceMappingURL=style.css.map */
