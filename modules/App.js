@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import { Link } from 'react-router';
 import FontAwesome from 'react-fontawesome';
 
+
 import AmCharts from 'amcharts3-react';
 
 
@@ -275,7 +276,7 @@ export default React.createClass({
                         </div>
                       </div>
                     </div>
-      </div>
+          </div>
       </div>
     )
   }

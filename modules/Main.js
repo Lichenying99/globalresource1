@@ -1,9 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router'
 import { render } from 'react-dom'
 
-export default React.createClass({
-  render() {
+var Main = React.createClass({
+  render: function () {
     return (
     	<div className="container">
     	
@@ -12,5 +11,6 @@ export default React.createClass({
     	</div>
     )
   }
-})
-export default Main;
+});
+
+module.exports = Main;
